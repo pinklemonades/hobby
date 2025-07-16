@@ -1,0 +1,88 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background: url("../IMG/HOMEPAGE_REF.jpg") no-repeat center center/cover;
+  color: #000;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* === NAVIGATION BAR === */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30 60px;
+  background-color:#f9dede;
+}
+
+header nav .logo img {
+  height: 60px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+header nav a.active {
+  background-color: #f5eee1;
+  border-radius: 20px;
+}
+
+header nav a:hover {
+  color: #ff69b4;
+}
+
+/* === HERO SECTION === */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100vh;
+  padding-right: 80px;
+  position: relative;
+}
+
+/* Button container */
+.hero-content {
+  margin-right: 300px; /* Move left from right edge */
+  margin-bottom: -180px; /* Move up */
+}
+
+/* BIGGER STYLE WITH ME BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 25px 80px; /* bigger size */
+  font-size: 20px;
+  background-color: #f85ea1;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d14a87;
+}
