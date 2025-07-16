@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* About Page Layout */
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.girl img {
+  max-width: 300px;
+  height: auto;
+}
+
+.about-text {
+  max-width: 500px;
+  text-align: center;
+  margin: 20px;
+}
+
+.about-text h1 {
+  font-size: 2rem;
+  color: #b92d61;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.polaroid img {
+  width: 250px;
+  height: auto;
+  border: 8px solid #fff;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+  margin-top: 20px;
+}
+
+.ribbon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.ribbon img {
+  width: 150px;
+  height: auto;
+}
